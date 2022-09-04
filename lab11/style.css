@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.product {
+    max-width: 32%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.product:hover {
+    box-shadow: 1px 1px 5px 4px #ccc;
+}
+
+.product img {
+    width: 90%;
+    margin: 0 auto;
+    height: 160px;
+    object-fit: contain;
+}
+
+.product h4,
+.product span {
+    font-family: sans-serif;
+}
+.product h4 {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+.product span {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #ddf;
+}
+.progress-ring__circle {
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+}
